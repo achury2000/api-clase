@@ -1,0 +1,45 @@
+GET http://localhost:3000/books HTTP/1.1
+### new quests
+
+GET http://localhost:3000/books/1 HTTP/1.1
+### mostrar un libro existente
+
+{
+  "title": "La Sapa CaraMelo ",
+  "author": "Cristian Achury",
+  "publishedYear": 2024
+}
+
+POST http://localhost:3000/books HTTP/1.1
+Content-Type: application/json
+// es enviar un nuevo libro
+
+{
+  "title": "La Sapa CaraMelo ",
+  "author": "Cristian Achury",
+  "publishedYear": 2024
+}
+
+#### new quests3
+PUT http://localhost:3000/books/11 HTTP/1.1
+Content-Type: application/json
+// atualizar un libro existente
+
+{
+  "title": "La Sapa CaraMelo ",
+  "author": "Cristian Achury",
+  "publishedYear": 2024
+}
+
+{
+  "year": 2019
+}
+#### new quests4
+DELETE http://localhost:3000/books/12 HTTP/1.1
+// eliminar un libro existente
+
+{
+  "title": "La Sapa CaraMelo ",
+  "author": "Cristian Achury",
+  "publishedYear": 2024
+}

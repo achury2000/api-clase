@@ -1,0 +1,21 @@
+1. Aprendí a levantar mi primer servidor con Express.
+
+2. Me di cuenta de que si no uso body-parser, no puedo leer los datos que me mandan en el body, y eso me confundió al principio.
+
+3. Descubrí que guardar datos en un archivo JSON es como tener una mini base de datos.
+
+4. Me costó entender la diferencia entre GET, POST, PUT y DELETE, pero ya sé que cada uno sirve para algo distinto con los libros.
+
+5. Al principio me equivoqué con los parámetros en la URL, pero ahora sé cómo pedir un libro por su id.
+
+6. El archivo db.json, los cambios se ven en la API, así que hay que tener cuidado.
+
+7. Aprendí a revisar la consola porque ahí aparecen los errores.
+
+8. Me gustó ver cómo los cambios que hago en el código aparecen rápido en el navegador.
+
+9. Aprendí que si borro algo sin querer, a veces la API deja de funcionar y toca revisar qué cambié.
+
+10. Ahora sé que si algo no funciona, lo mejor es preguntar o buscar en Google, porque casi siempre alguien ya tuvo el mismo problema.
+
+Hecho por:Cristian Mateo Achur Arboleda
